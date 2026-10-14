@@ -1,0 +1,4 @@
+[[mgr.prepend_keymap]]
+on   = [ "c" ]
+run  = "shell --confirm 'wl-copy < \"$0\"'"
+desc = "Copy file contents"

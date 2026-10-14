@@ -1,0 +1,9 @@
+[opener]
+edit = [
+    { run = "kate %s", block = true }
+]
+
+[open]
+prepend_rules = [
+    { mime = "text/*", use = "edit" }
+]
